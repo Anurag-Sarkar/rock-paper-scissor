@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#hero{
+    position: absolute;
+    transform: translate(-50px,-50px);
+    left: 48%;
+    top: 40%;
+}
+.start:hover{
+    background-color: rgb(0, 110, 255);
+}
+.start{
+    
+    transition: 0.2s;
+    border-radius: 10px;
+    background-color: rgb(0, 91, 209);
+    box-shadow: 1px 1px black;
+    border: none;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 200px;
+}
+.container{
+    top: 25%;
+    left: -40%;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    font-weight: 500;
+    font-size: 100px;
+    color: rgb(218, 7, 7);
+}
+.container2{
+    left: -50%;
+    top: 25%;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    font-size: 100px;
+    font-weight: 500;
+    color: green;
+}
+.container3{
+    color: rgb(3, 54, 194);
+    left: -80%;
+    top: 25%;
+    font-weight: 500;
+    font-size: 100px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+#buttons{
+    font-size: 17px;
+    left: -42%;
+    position: absolute;
+    width: 340px;
+    justify-content: space-between;
+    display: flex;
+}
+.play{
+    opacity: 0;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(0, 0, 206);
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.CPU{
+    opacity: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    transition: 0.5s;
+}
+.You{
+    opacity: 0;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(0, 179, 0);
+    color: white;
+    width: 100px;
+    height: 40px;
+    transition: 0.5s;
+}
+.play:hover,.CPU:hover,.You:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+#image{
+    z-index: -1;
+    top: -10%;
+    left: -10%;
+    position:absolute
+}
+#rock{
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s;
+
+}
+#paper{
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s;
+    
+}
+
+#scissor{
+        position: absolute;
+    opacity: 0;
+    transition: 0.2s;
+}
+#score{
+    top: 5%;
+    position: absolute;
+    right: 2%;
+}
+#computer{
+    display: flex;
+    margin-bottom: 10px;
+}
+#player{
+    display: flex;
+}
+.cscr{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.pscr{
+margin-left: 67px;
+font-size: 20px;
+}
+
+.comp,.plr{
+    font-size: 20px;
+}
